@@ -16,5 +16,5 @@ function progresBar() {
 
 }
 
-module.exports = progresBar;
+export {progresBar};
 

@@ -31,5 +31,5 @@ function hoverRotate() {
 
 }
 
-module.exports = hoverRotate;
+export {hoverRotate};
 

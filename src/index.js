@@ -1,9 +1,10 @@
-let moduleSlider = require('./slider.js');
-let moduleHover = require('./hoverRotate.js');
-let moduleProgresBar = require('./progresBar.js');
-let moduleAddingBlocks = require('./addingBlocks.js');
+import {slider} from './slider.js';
+import {progresBar} from './progresBar.js';
+import {hoverRotate} from './hoverRotate.js';
+import {addingBlocks} from './addingBlocks';
 
-let progresBar = new moduleProgresBar();
-let slider =  new moduleSlider();
-let hoverRotate =  new moduleHover();
-let addingBlocks = new moduleAddingBlocks();
+slider();
+progresBar();
+hoverRotate();
+addingBlocks();
+

@@ -24,5 +24,5 @@ function addingBlocks() {
     console.log(maxScroll);
 }
 
-module.exports = addingBlocks;
+export {addingBlocks};
  

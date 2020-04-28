@@ -70,4 +70,4 @@ function slider() {
     showSlides();
 }
 
-module.exports = slider;
+export {slider};
